@@ -133,8 +133,8 @@ public class Ecustomer {
         preparedStmt.setString(1, electricID);
         preparedStmt.setString(2, fullName);
         preparedStmt.setString(3, phoneNo);
-        preparedStmt.setString(5, wiringMethod);
-        preparedStmt.setInt(6, Integer.parseInt(ConID));
+        preparedStmt.setString(4, wiringMethod);
+        preparedStmt.setInt(5, Integer.parseInt(ConID));
        
         // execute the statement
         preparedStmt.execute();
